@@ -6,22 +6,22 @@
         "use": "@vercel/python"
       },
       {
-        "src": "./ManagementServer/api.py",
+        "src": "ManagementServer.vercel/api.py",
         "use": "@vercel/python"
       },
       {
-        "src": "./ManagementServer/command.py",
+        "src": "ManagementServer.vercel/command.py",
         "use": "@vercel/python"
       }
     ],
     "routes": [
       {
         "src": "/api/(.*)",
-        "dest": "./ManagementServer/api.py"
+        "dest": "ManagementServer.vercel/api.py"
       },
       {
         "src": "/command/(.*)",
-        "dest": "./ManagementServer/command.py"
+        "dest": "ManagementServer.vercel/command.py"
       }
     ]
 }

@@ -240,6 +240,9 @@ async def start(port:int=50052):
 #endregion
 
 
+app=command
+
+
 #region Running directly processor
 if __name__ == "__main__":
     start()
