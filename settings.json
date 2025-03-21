@@ -1,1 +1,1 @@
-{"gRPC": {"prefix": "http", "host": "localhost", "port": 50051}, "api": {"prefix": "http", "host": "localhost", "port": 50050}, "command": {"prefix": "http", "host": "localhost", "port": 50052}, "organization_name": "Default"}
+{"gRPC": {"prefix": "https://", "host": "cims-backend-eight.vercel.app", "port": 50051}, "api": {"prefix": "https://", "host": "cims-backend-eight.vercel.app", "port": 50050}, "command": {"prefix": "https://", "host": "cims-backend-eight.vercel.app", "port": 50052}, "organization_name": "Default"}
