@@ -1,0 +1,1 @@
+{"gRPC": {"prefix": "http", "host": "localhost", "port": 50051}, "api": {"prefix": "http", "host": "localhost", "port": 50050}, "command": {"prefix": "http", "host": "localhost", "port": 50052}, "organization_name": "Default"}
